@@ -17,7 +17,6 @@ var LeasDefaultEchartsWidget = AbstractField.extend({
 
 
         const dataArray = JSON.parse(value);
-        //console.log(dataArray);
 
 
         var chartContainer = this.$('.leas-bar-container')[0];

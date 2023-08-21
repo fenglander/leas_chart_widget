@@ -18,9 +18,7 @@ var LeasStackedHBarWidget = AbstractField.extend({
         const dataArray = JSON.parse(value);
         dataArray.reverse()
         const categories = dataArray.map(item => item.category);
-        // console.log(categories);
         const dynamicKeys = Object.keys(dataArray[0]).filter(key => key !== 'category');
-        // console.log(dynamicKeys);
         const dynamicData = dynamicKeys.map(key => {
           return {
             name: key,
@@ -64,7 +62,6 @@ var LeasStackedHBarWidget = AbstractField.extend({
           const paddingLeft = 20; // 适当的左边间距
           return maxCategoryWidth + paddingLeft;
         };
-        // console.log(calculateLeftValue());
         var option = {
           tooltip: {
             trigger: 'axis',
