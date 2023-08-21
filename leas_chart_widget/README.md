@@ -14,11 +14,11 @@ This Module Enables Displaying Data Charts Through Widget.
 <!-- TOC -->
 
 ## Effect
-![](\static\description\Effect01.jpg)
+![](static\description\Effect01.jpg)
 
 ## Example
 #### view-xml:
-![](\static\description\Example01.jpg)
+![](static\description\Example01.jpg)
 ````
 widget="leas_echarts" options="{'dark': 1}"
     or
@@ -55,7 +55,7 @@ leas_stackedHBar:
 ]
 ````
 leas_echarts:
-![](\static\description\Example02.png)
+![](static\description\Example02.png)
 
 This widget will directly hand over the JSON to ECharts for processing, so you just need to generate JSON that conforms to the ECharts format. For details, you can refer to https://echarts.apache.org/examples/.
 
