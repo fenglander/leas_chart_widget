@@ -60,6 +60,10 @@ leas_echarts:
 
 This widget will directly hand over the JSON to ECharts for processing, so you just need to generate JSON that conforms to the ECharts format. For details, you can refer to https://echarts.apache.org/examples/.
 
+Field Type Configuration:
+````python
+mo_Proc_chart_data = fields.Char('production Process', compute='_compute_Proc_chart_data')
+````
 #### Bug Tracker
 Bugs are tracked on [GitHub Issues](https://github.com/fenglander/leas_chart_widget/issues>)  
 If you encounter an issue, please check here to see if your problem has already been reported.  
