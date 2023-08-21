@@ -54,7 +54,8 @@ leas_stackedHBar:
     },
 ]
 ````
-leas_echarts:
+leas_echarts:  
+
 ![](https://github.com/fenglander/leas_chart_widget/blob/main/static/description/Example02.png?raw=true)
 
 This widget will directly hand over the JSON to ECharts for processing, so you just need to generate JSON that conforms to the ECharts format. For details, you can refer to https://echarts.apache.org/examples/.
